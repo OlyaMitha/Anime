@@ -1,0 +1,246 @@
+.battle .image-container img{
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.battle .image-container{
+	width: 300px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu{
+	width: 150px;
+	background:#ffffff;
+}
+
+.menu-fly{
+	position: fixed;
+}
+
+.gallery{
+	padding-top: 10px;
+	background:#ffffff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+
+.parent{
+	display: flex;	
+}
+
+.header{
+	text-align: center;
+	font-size: 40px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	color:#fd9240;
+	-webkit-text-stroke: 1px black;
+	background-image: url(../images/9df3754e760d5341ac1b6707b9fb9ec4.jpg); 
+	height: 95px;
+	padding-top:20px;
+	border: 3px ff963a solid;
+}
+
+.button{
+	border: 1px #0d0d0d solid;
+    white-space: nowrap;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 10px;
+    background: #ffcc80;
+	box-shadow: 5px 2px 5px rgb(64 1 1/ 70%);
+	font-size: 20px;
+	text-align: center;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	color: black;
+}
+
+.button:hover{
+	background:#e0e0e0;
+	color: #e57373;
+}
+
+.gallery .battle{
+	border: 10px #fd9240 solid;
+	margin: 10px;
+    border-radius: 30px;
+}
+
+.battle:hover,
+.battle:hover .name,
+.battle:hover .actions{
+	border-color:#b39ddb;
+	border-style: dashed;
+	color: blue;
+}
+
+.battle .name{
+	border: 0;
+	border-bottom: 10px #fd9240 solid;    
+    padding: 10px;
+    font-size: 30px;
+	text-align: center;
+	color: #0d0d0d;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.battle .name:hover{
+	color: #9fa8da;
+}
+.battle .actions{
+	display: flex;
+	border: 0;
+	border-top: 10px #fd9240 solid;
+	justify-content: space-between;
+	padding: 0px;
+}
+
+.battle .actions .button{
+	flex: 1;
+	margin: 0;
+	border-radius: 0;
+}
+
+.battle .actions .button:hover{
+	background: #9fa8da;
+	color: #ffebee;
+}
+
+.image-container:hover + div.actions {
+  background: blue;
+}
+.name:hover + div.image-container {
+  background: orange;
+}
+
+
+.battle .actions .button:first-child{
+	border-bottom-left-radius: 20px;
+}
+
+.battle .actions .button:last-child{
+	border-bottom-right-radius: 20px;
+}
+
+.content{
+	flex: 1;
+}
+
+#element{
+	height: 600px;
+	background-image: url(../images/The-Five-Elements-of-Ayurveda.jpg);
+	opacity: 0.8;
+}
+
+p{	
+
+	text-align: left;
+	font-size: 20px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	color: black;
+	padding-top:10px;
+	margin-left: 40px;
+}
+
+#chakra{
+	height: 600px;
+	background-image: url(../images/04f09d5e2a1c0faecc6cb54c436665ff.jpg);
+	opacity: 0.8;
+}
+
+h1{
+	text-align: center;
+	font-size:30px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	color: black;
+	padding-top:50px;
+}
+
+.page:target{
+	display: flex;
+}
+
+.page{
+	display: none;
+}
+
+#media{
+	justify-content:space-around;
+	font-size: 20px;
+	text-align: center;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	color: #fd9240;
+	-webkit-text-stroke: 1px black;
+	background:#ffffff;
+	padding-top:100px;
+}
+
+figure{
+    box-shadow: 0 0 0 2px #201e1c, 0 0 20px #333; 
+}
+
+iframe{
+	box-shadow: 0 0 0 2x #201e1c, 0 0 20px #333; 
+}
+
+.section{
+	width: 100%;
+	height: 600px;
+	background-image: url(../images/4e635073e0ae7b550f1b20a4e44da5446.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.section-one{
+	width: 100%;
+	height: 500px;
+	background-image: url(../images/a4c4c51de19347167d24e9bb0f9f3e05.gif);
+	background-size: cover;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.section-two{
+	width: 100%;
+	height: 600px;
+	background-image: url(../images/3301461.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.chain{
+	position: absolute;
+    left: 910px;
+	background: #fff59d;
+    border: 1px #0d0d0d solid;
+    margin: 15px;
+    border-radius: 5px;
+	box-shadow: 5px 2px 5px rgb(64 1 1/ 70%);
+    display: flex;
+    justify-content: center;
+	margin-top:-15px;
+	font-size: 20px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	color: black;
+}
+
+.link-nice {
+	font-size: 30px;
+	background: #dce775;
+	border: 1px #0d0d0d solid;
+	white-space: nowrap;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 5px 2px 5px rgb(64 1 1/ 70%);
+	text-align: center;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	color: black;
+}                    }
+
+
+
